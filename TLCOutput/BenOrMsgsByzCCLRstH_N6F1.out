@@ -1,0 +1,56 @@
+TLC2 Version 2.17 of 02 February 2022 (rev: 3c7caa5)
+Running breadth-first search Model-Checking with fp 103 and seed -4194332634883389661 with 6 workers on 12 cores with 7851MB heap and 64MB offheap memory [pid: 21392] (Windows 11 10.0 amd64, Oracle Corporation 17.0.3.1 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file D:\Data Collection\BenOrMsgsByzCCLRstH.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\TLC.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\Integers.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\FiniteSets.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\Naturals.tla
+Parsing file D:\Data Collection\BenOrAbstByzCCLRstH.tla
+Parsing file D:\Data Collection\BenOrMsgsByzCCLRst.tla
+Parsing file D:\Data Collection\BenOrAbstByzCCLRst.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module BenOrAbstByzCCLRstH
+Semantic processing of module BenOrMsgsByzCCLRst
+Semantic processing of module BenOrAbstByzCCLRst
+Semantic processing of module BenOrMsgsByzCCLRstH
+Starting... (2024-05-04 21:26:30)
+Implied-temporal checking--satisfiability problem has 1 branches.
+Computing initial states...
+Computed 2 initial states...
+Computed 4 initial states...
+Computed 8 initial states...
+Computed 16 initial states...
+Computed 32 initial states...
+Finished computing initial states: 64 distinct states generated at 2024-05-04 21:26:30.
+Checking temporal properties for the current state space with 4038 total distinct states at (2024-05-04 21:26:34)
+Finished checking temporal properties in 00s at 2024-05-04 21:26:34
+Progress(8) at 2024-05-04 21:26:34: 12,388 states generated (12,388 s/min), 4,132 distinct states found (4,132 ds/min), 88 states left on queue.
+Checking temporal properties for the current state space with 37392 total distinct states at (2024-05-04 21:27:34)
+Finished checking temporal properties in 03s at 2024-05-04 21:27:37
+Progress(20) at 2024-05-04 21:27:37: 231,424 states generated (219,036 s/min), 53,186 distinct states found (49,054 ds/min), 15,788 states left on queue.
+Checking temporal properties for the current state space with 98487 total distinct states at (2024-05-04 21:28:37)
+Finished checking temporal properties in 16s at 2024-05-04 21:28:54
+Progress(30) at 2024-05-04 21:28:54: 545,785 states generated (314,361 s/min), 99,796 distinct states found (46,610 ds/min), 1,308 states left on queue.
+Checking temporal properties for the current state space with 120576 total distinct states at (2024-05-04 21:29:54)
+Finished checking temporal properties in 22s at 2024-05-04 21:30:16
+Progress(38) at 2024-05-04 21:30:16: 715,619 states generated (169,834 s/min), 137,968 distinct states found (38,172 ds/min), 17,387 states left on queue.
+Checking temporal properties for the current state space with 152718 total distinct states at (2024-05-04 21:31:16)
+Finished checking temporal properties in 31s at 2024-05-04 21:31:47
+Progress(39) at 2024-05-04 21:31:47: 938,877 states generated (223,258 s/min), 174,102 distinct states found (36,134 ds/min), 21,378 states left on queue.
+Progress(44) at 2024-05-04 21:32:45: 1,202,950 states generated, 216,742 distinct states found, 0 states left on queue.
+Checking temporal properties for the complete state space with 216742 total distinct states at (2024-05-04 21:32:45)
+Finished checking temporal properties in 49s at 2024-05-04 21:33:35
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.2E-8
+  based on the actual fingerprints:  val = 3.3E-9
+1202950 states generated, 216742 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 44.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 8 and the 95th percentile is 3).
+Finished in 07min 05s at (2024-05-04 21:33:35)

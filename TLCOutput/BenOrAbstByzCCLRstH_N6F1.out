@@ -1,0 +1,54 @@
+TLC2 Version 2.17 of 02 February 2022 (rev: 3c7caa5)
+Running breadth-first search Model-Checking with fp 3 and seed -2040259029186739620 with 6 workers on 12 cores with 7851MB heap and 64MB offheap memory [pid: 16784] (Windows 11 10.0 amd64, Oracle Corporation 17.0.3.1 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file D:\Data Collection\BenOrAbstByzCCLRstH.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\TLC.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\Integers.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\FiniteSets.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\Naturals.tla
+Parsing file D:\Data Collection\BenOrMsgsByzCCLRstH.tla
+Parsing file D:\Data Collection\BenOrMsgsByzCCLRst.tla
+Parsing file D:\Data Collection\BenOrAbstByzCCLRst.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module BenOrMsgsByzCCLRstH
+Semantic processing of module BenOrMsgsByzCCLRst
+Semantic processing of module BenOrAbstByzCCLRst
+Semantic processing of module BenOrAbstByzCCLRstH
+Starting... (2024-05-04 21:14:21)
+Implied-temporal checking--satisfiability problem has 1 branches.
+Computing initial states...
+Computed 2 initial states...
+Computed 4 initial states...
+Computed 8 initial states...
+Computed 16 initial states...
+Computed 32 initial states...
+Finished computing initial states: 64 distinct states generated at 2024-05-04 21:14:21.
+Checking temporal properties for the current state space with 4038 total distinct states at (2024-05-04 21:14:24)
+Finished checking temporal properties in 00s at 2024-05-04 21:14:24
+Progress(8) at 2024-05-04 21:14:24: 12,388 states generated (12,388 s/min), 4,132 distinct states found (4,132 ds/min), 90 states left on queue.
+Checking temporal properties for the current state space with 38441 total distinct states at (2024-05-04 21:15:24)
+Finished checking temporal properties in 03s at 2024-05-04 21:15:28
+Progress(20) at 2024-05-04 21:15:28: 181,151 states generated (168,763 s/min), 54,359 distinct states found (50,227 ds/min), 15,914 states left on queue.
+Checking temporal properties for the current state space with 101974 total distinct states at (2024-05-04 21:16:28)
+Finished checking temporal properties in 16s at 2024-05-04 21:16:45
+Progress(35) at 2024-05-04 21:16:45: 397,834 states generated (216,683 s/min), 105,379 distinct states found (51,020 ds/min), 3,401 states left on queue.
+Checking temporal properties for the current state space with 125017 total distinct states at (2024-05-04 21:17:45)
+Finished checking temporal properties in 27s at 2024-05-04 21:18:12
+Progress(38) at 2024-05-04 21:18:12: 539,825 states generated (141,991 s/min), 143,425 distinct states found (38,046 ds/min), 18,405 states left on queue.
+Progress(40) at 2024-05-04 21:19:12: 704,458 states generated (164,633 s/min), 180,916 distinct states found (37,491 ds/min), 21,277 states left on queue.
+Progress(44) at 2024-05-04 21:20:00: 849,322 states generated, 216,742 distinct states found, 0 states left on queue.
+Checking temporal properties for the complete state space with 216742 total distinct states at (2024-05-04 21:20:00)
+Finished checking temporal properties in 51s at 2024-05-04 21:20:51
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 7.4E-9
+  based on the actual fingerprints:  val = 4.0E-9
+849322 states generated, 216742 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 44.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 8 and the 95th percentile is 3).
+Finished in 06min 30s at (2024-05-04 21:20:51)

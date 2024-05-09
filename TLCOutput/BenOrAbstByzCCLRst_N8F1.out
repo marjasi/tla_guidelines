@@ -1,0 +1,89 @@
+TLC2 Version 2.17 of 02 February 2022 (rev: 3c7caa5)
+Running breadth-first search Model-Checking with fp 123 and seed -5601123732055856078 with 6 workers on 12 cores with 7851MB heap and 64MB offheap memory [pid: 12408] (Windows 11 10.0 amd64, Oracle Corporation 17.0.3.1 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file D:\Data Collection\BenOrAbstByzCCLRst.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\TLC.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\Integers.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\FiniteSets.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\Naturals.tla
+Parsing file C:\Users\marij\AppData\Local\Temp\Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module BenOrAbstByzCCLRst
+Starting... (2024-04-24 22:59:05)
+Implied-temporal checking--satisfiability problem has 1 branches.
+Computing initial states...
+Computed 2 initial states...
+Computed 4 initial states...
+Computed 8 initial states...
+Computed 16 initial states...
+Computed 32 initial states...
+Computed 64 initial states...
+Computed 128 initial states...
+Finished computing initial states: 256 distinct states generated at 2024-04-24 22:59:05.
+Checking temporal properties for the current state space with 10633 total distinct states at (2024-04-24 22:59:08)
+Finished checking temporal properties in 00s at 2024-04-24 22:59:08
+Progress(5) at 2024-04-24 22:59:08: 65,453 states generated (65,453 s/min), 25,271 distinct states found (25,271 ds/min), 14,633 states left on queue.
+Checking temporal properties for the current state space with 165537 total distinct states at (2024-04-24 23:00:08)
+Finished checking temporal properties in 02s at 2024-04-24 23:00:11
+Progress(14) at 2024-04-24 23:00:11: 1,092,188 states generated (1,026,735 s/min), 286,521 distinct states found (261,250 ds/min), 120,982 states left on queue.
+Checking temporal properties for the current state space with 294667 total distinct states at (2024-04-24 23:01:11)
+Finished checking temporal properties in 04s at 2024-04-24 23:01:16
+Progress(15) at 2024-04-24 23:01:16: 2,089,962 states generated (997,774 s/min), 497,424 distinct states found (210,903 ds/min), 202,754 states left on queue.
+Checking temporal properties for the current state space with 450387 total distinct states at (2024-04-24 23:02:16)
+Finished checking temporal properties in 07s at 2024-04-24 23:02:23
+Progress(16) at 2024-04-24 23:02:23: 3,194,838 states generated (1,104,876 s/min), 711,178 distinct states found (213,754 ds/min), 260,786 states left on queue.
+Checking temporal properties for the current state space with 617678 total distinct states at (2024-04-24 23:03:23)
+Finished checking temporal properties in 11s at 2024-04-24 23:03:34
+Progress(17) at 2024-04-24 23:03:34: 4,329,787 states generated (1,134,949 s/min), 918,519 distinct states found (207,341 ds/min), 300,836 states left on queue.
+Checking temporal properties for the current state space with 805685 total distinct states at (2024-04-24 23:04:34)
+Finished checking temporal properties in 14s at 2024-04-24 23:04:49
+Progress(17) at 2024-04-24 23:04:49: 5,544,198 states generated (1,214,411 s/min), 1,134,600 distinct states found (216,081 ds/min), 328,910 states left on queue.
+Checking temporal properties for the current state space with 1038223 total distinct states at (2024-04-24 23:05:49)
+Finished checking temporal properties in 19s at 2024-04-24 23:06:08
+Progress(18) at 2024-04-24 23:06:08: 6,920,329 states generated (1,376,131 s/min), 1,363,874 distinct states found (229,274 ds/min), 325,645 states left on queue.
+Checking temporal properties for the current state space with 1284256 total distinct states at (2024-04-24 23:07:08)
+Finished checking temporal properties in 23s at 2024-04-24 23:07:32
+Progress(19) at 2024-04-24 23:07:32: 8,302,036 states generated (1,381,707 s/min), 1,585,516 distinct states found (221,642 ds/min), 301,255 states left on queue.
+Checking temporal properties for the current state space with 1551985 total distinct states at (2024-04-24 23:08:32)
+Finished checking temporal properties in 28s at 2024-04-24 23:09:00
+Progress(20) at 2024-04-24 23:09:00: 9,689,000 states generated (1,386,964 s/min), 1,800,352 distinct states found (214,836 ds/min), 248,361 states left on queue.
+Checking temporal properties for the current state space with 1885415 total distinct states at (2024-04-24 23:10:00)
+Finished checking temporal properties in 35s at 2024-04-24 23:10:35
+Progress(21) at 2024-04-24 23:10:35: 11,210,175 states generated (1,521,175 s/min), 2,023,701 distinct states found (223,349 ds/min), 138,284 states left on queue.
+Progress(38) at 2024-04-24 23:11:35: 12,772,675 states generated (1,562,500 s/min), 2,330,375 distinct states found (306,674 ds/min), 70,763 states left on queue.
+Checking temporal properties for the current state space with 2381255 total distinct states at (2024-04-24 23:12:35)
+Finished checking temporal properties in 45s at 2024-04-24 23:13:20
+Progress(39) at 2024-04-24 23:13:20: 13,872,475 states generated (1,099,800 s/min), 2,576,761 distinct states found (246,386 ds/min), 195,505 states left on queue.
+Progress(40) at 2024-04-24 23:14:20: 15,051,728 states generated (1,179,253 s/min), 2,815,371 distinct states found (238,610 ds/min), 289,286 states left on queue.
+Progress(41) at 2024-04-24 23:15:20: 16,205,051 states generated (1,153,323 s/min), 3,041,497 distinct states found (226,126 ds/min), 368,563 states left on queue.
+Checking temporal properties for the current state space with 2841019 total distinct states at (2024-04-24 23:16:20)
+Finished checking temporal properties in 52s at 2024-04-24 23:17:13
+Progress(41) at 2024-04-24 23:17:13: 17,417,942 states generated (1,212,891 s/min), 3,264,244 distinct states found (222,747 ds/min), 423,223 states left on queue.
+Progress(41) at 2024-04-24 23:18:13: 18,651,246 states generated (1,233,304 s/min), 3,490,353 distinct states found (226,109 ds/min), 478,013 states left on queue.
+Progress(42) at 2024-04-24 23:19:13: 19,970,842 states generated (1,319,596 s/min), 3,718,062 distinct states found (227,709 ds/min), 503,719 states left on queue.
+Progress(42) at 2024-04-24 23:20:13: 21,223,349 states generated (1,252,507 s/min), 3,934,405 distinct states found (216,343 ds/min), 528,921 states left on queue.
+Checking temporal properties for the current state space with 3618979 total distinct states at (2024-04-24 23:21:13)
+Finished checking temporal properties in 01min 07s at 2024-04-24 23:22:20
+Progress(43) at 2024-04-24 23:22:20: 22,528,455 states generated (1,305,106 s/min), 4,152,775 distinct states found (218,370 ds/min), 533,792 states left on queue.
+Progress(43) at 2024-04-24 23:23:20: 23,948,152 states generated (1,419,697 s/min), 4,385,803 distinct states found (233,028 ds/min), 525,154 states left on queue.
+Progress(44) at 2024-04-24 23:24:20: 25,348,108 states generated (1,399,956 s/min), 4,613,017 distinct states found (227,214 ds/min), 503,007 states left on queue.
+Progress(44) at 2024-04-24 23:25:20: 26,799,273 states generated (1,451,165 s/min), 4,843,691 distinct states found (230,674 ds/min), 452,150 states left on queue.
+Checking temporal properties for the current state space with 4707806 total distinct states at (2024-04-24 23:26:20)
+Finished checking temporal properties in 01min 29s at 2024-04-24 23:27:50
+Progress(45) at 2024-04-24 23:27:50: 28,294,070 states generated (1,494,797 s/min), 5,081,254 distinct states found (237,563 ds/min), 373,447 states left on queue.
+Progress(46) at 2024-04-24 23:28:50: 29,932,608 states generated (1,638,538 s/min), 5,346,111 distinct states found (264,857 ds/min), 232,386 states left on queue.
+Progress(50) at 2024-04-24 23:29:34: 31,010,266 states generated, 5,553,654 distinct states found, 0 states left on queue.
+Checking temporal properties for the complete state space with 5553654 total distinct states at (2024-04-24 23:29:34)
+Finished checking temporal properties in 01min 41s at 2024-04-24 23:31:16
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 7.7E-6
+  based on the actual fingerprints:  val = 2.9E-6
+31010266 states generated, 5553654 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 50.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 10 and the 95th percentile is 3).
+Finished in 32min 12s at (2024-04-24 23:31:16)
